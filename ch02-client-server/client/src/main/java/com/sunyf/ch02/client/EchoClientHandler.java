@@ -16,7 +16,7 @@ import io.netty.util.CharsetUtil;
 public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
-        //当被通知 Channel是活跃的时候，发送一条消息
+        //当被通知 Channel是活跃的时候，发送一条消息 TODO:
         ctx.writeAndFlush(Unpooled.copiedBuffer("Netty rocks!", CharsetUtil.UTF_8));
     }
 
