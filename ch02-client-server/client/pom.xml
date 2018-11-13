@@ -47,6 +47,7 @@
                     </executions>
                     <configuration>
                         <mainClass>com.sunyf.ch02.client.EchoClient</mainClass>
+                        <!-- 主机、端口地址 -->
                         <arguments>
                             <argument>${echo-server.hostname}</argument>
                             <argument>${echo-server.port}</argument>

@@ -48,6 +48,7 @@
                     </executions>
                     <configuration>
                         <mainClass>com.sunyf.ch02.server.EchoServer</mainClass>
+                        <!-- 服务端：端口地址 -->
                         <arguments>
                             <argument>${echo-server.port}</argument>
                         </arguments>

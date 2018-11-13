@@ -12,7 +12,7 @@ import java.net.InetSocketAddress;
 
 /**
  * @program: netty-in-action
- * @description:
+ * @description: 客户端
  * @author: sunyf
  * @create: 2018-11-13 14:05
  **/
