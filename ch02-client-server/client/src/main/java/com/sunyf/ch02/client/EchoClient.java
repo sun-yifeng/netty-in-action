@@ -1,4 +1,4 @@
-package com.sunyf.ch02;
+package com.sunyf.ch02.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -17,6 +17,8 @@ import java.net.InetSocketAddress;
  * @create: 2018-11-13 14:05
  **/
 public class EchoClient {
+
+    //host、port配置在pom.xml文件中
     private final String host;
     private final int port;
 
@@ -25,8 +27,7 @@ public class EchoClient {
         this.port = port;
     }
 
-    public void start()
-            throws Exception {
+    public void start() throws Exception {
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             //创建 Bootstrap
@@ -56,8 +57,7 @@ public class EchoClient {
         }
     }
 
-    public static void main(String[] args)
-            throws Exception {
+    public static void main(String[] args) throws Exception {
         if (args.length != 2) {
             System.err.println("Usage: " + EchoClient.class.getSimpleName() +
                     " <host> <port>"

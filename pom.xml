@@ -8,9 +8,10 @@
   <artifactId>netty-in-action</artifactId>
   <packaging>pom</packaging>
   <version>2.0-SNAPSHOT</version>
+
   <modules>
-    <module>ch01-asyn-and-event</module>
-      <module>ch02-first-app</module>
+    <module>ch01-asyn-event</module>
+    <module>ch02-client-server</module>
   </modules>
 
   <name>netty-in-action</name>

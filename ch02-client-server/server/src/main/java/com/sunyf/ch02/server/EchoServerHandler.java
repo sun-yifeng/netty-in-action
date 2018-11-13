@@ -1,4 +1,4 @@
-package com.sunyf.ch02;
+package com.sunyf.ch02.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -10,7 +10,7 @@ import io.netty.util.CharsetUtil;
 
 /**
  * @program: netty-in-action
- * @description:
+ * @description: 服务端业务逻辑
  * @author: sunyf
  * @create: 2018-11-13 14:02
  **/

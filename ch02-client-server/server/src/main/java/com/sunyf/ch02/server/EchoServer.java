@@ -1,4 +1,4 @@
-package com.sunyf.ch02;
+package com.sunyf.ch02.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -17,6 +17,8 @@ import java.net.InetSocketAddress;
  * @create: 2018-11-13 14:04
  **/
 public class EchoServer {
+
+    //host、port配置在pom.xml文件中
     private final int port;
 
     public EchoServer(int port) {

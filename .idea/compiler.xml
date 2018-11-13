@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="server" />
+      </profile>
+      <profile name="Annotation profile for netty-in-action" enabled="true">
+        <sourceOutputDir name="../ch01-asyn-and-event/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../ch01-asyn-and-event/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="ch01-asyn-event" />
-        <module name="ch02-client-server" />
       </profile>
     </annotationProcessing>
   </component>
